@@ -6,39 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Fresh Life</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet" />
 </head>
 
 <body>
     <div class="wrapper">
-        <div>
-            <header>
+        <section class="homepage">
+            <header class="header">
                 <img class="logo" src="./img/logo.png" alt="Cahee">
-                <nav>
-                    <p>Home</p>
-                    <p>About</p>
-                    <p>Services</p>
-                    <p>Gallery</p>
-                    <p>Blog</p>
-                    <p>Contact</p>
+                <nav class="navbar">
+                    <a class="navbar__item" href="#">Home</a>
+                    <a class="navbar__item" href="#about-us">About</a>
+                    <a class="navbar__item" href="#">Services</a>
+                    <a class="navbar__item" href="#">Gallery</a>
+                    <a class="navbar__item" href="#">Blog</a>
+                    <a class="navbar__item" href="#">Contact</a>
                 </nav>
             </header>
-            <div>
-                <h3>Fresh Life</h3>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud
-                    exercitation ullamco.</p>
-            </div>
-            <button>Get free now</button>
-        </div>
+            <article class="intro">
+                <h3 class="intro__title">Fresh Life</h3>
+                <p class="intro__description">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <button class="intro__button">Get free now</button>
+            </article>
+        </section>
 
-        <div>
-            <h2>About Us</h2>
-            <p>Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum.
-            </p>
-            <p>Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.</p>
-        </div>
+        <section class="about-us" id="about-us">
+            <img class="about-us__img" src="./img/raspberry.png" alt="raspberry" />
+            <div>
+                <h2 class="about-us__title">About Us</h2>
+                <p class="about-us__description">Abore Cahee magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum. </p>
+                <p class="about-us__description">Nim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit
+                    voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore.
+                </p>
+            </div>
+        </section>
     </div>
 </body>
 
