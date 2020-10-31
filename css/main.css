@@ -112,6 +112,11 @@ body {
     box-shadow: none;
 }
 
+.intro__button:hover {
+    animation: shakeX;
+    animation-duration: 1s;
+}
+
 /* about-us */
 .about-us {
     padding: 50px 0;
